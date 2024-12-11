@@ -1,0 +1,71 @@
+/* Reseteo los estilos de los navegadores establecidos que tienen por medio de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+
+.carousel-item video{   
+    border-radius: 20px;
+    height: 592px; 
+    object-fit: cover; 
+}
+.container {
+    padding: 20px;
+}
+.row {
+    display: flex;
+    align-items: stretch; 
+  }
+  
+.col-md-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-weight: 600;
+}
+#usuarioForm{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3px;
+    box-shadow: 0 4px 10px rgb(10, 68, 96,0.3) !important;
+    border-radius: 20px !important;
+    height: 590px;
+}
+
+#usuarioForm p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px; 
+    color: #6c757d; 
+    margin-top: 20px; 
+  
+}
+#usuarioForm button.btn{
+    background-color: #0a4460;
+    border: 1px solid #0a4460; 
+}
+#usuarioForm button.btn:hover{
+    background-color: #e98307;
+    border: 1px solid #e98307;
+}
+#usuarioForm a.btn-link {
+    display: flex;
+    justify-content: center;
+    font-size: 16px; 
+    color: #0a4460; 
+    text-decoration: none; 
+    font-weight: 600; 
+}
+
+#usuarioForm a.btn-link:hover {
+    text-decoration: underline; 
+    color: #e98307; 
+}

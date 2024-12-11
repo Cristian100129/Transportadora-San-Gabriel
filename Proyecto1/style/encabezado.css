@@ -1,0 +1,120 @@
+/* Modifico el contenedor principal */
+.navbar {
+    background-color: #0a4460  !important;  
+    padding: 20px;  
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 5px;
+    border-radius: 25px; 
+    box-shadow: 1px 2px 12px  rgb(0,0,0.3);
+}
+
+/* Aqui edito el nombre de la izquierda del nav */
+.navbar-dark .navbar-brand {
+    color: #ffffff; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+/* Aqui ese nombre de la izquierda le coloco mas estilos en caso de que el cursor pase por encima de ese nombre */
+.navbar-dark .navbar-brand:hover {
+    color: white;
+    transform: scale(1.05);
+}
+/* Estilo para el formulario */
+.navbar .d-flex {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+/* Estilo del input */
+.navbar .form-control {
+    width: 450px; 
+    border-radius: 20px; 
+}
+
+/* Estilo del botón */
+.navbar .btn-outline-success {
+    color: #fff;
+    border: 1px solid #e98307;
+    border-radius: 20px; /* Bordes redondeados para el botón */
+    padding: 8px 24px; 
+    transition: all 3s;
+    transition: background-color 0.3s ease; 
+}
+
+/* Cambiar color del botón al pasar el mouse */
+.navbar .btn-outline-success:hover {
+    background-color: #e98307; 
+    color: white; 
+}
+/* Estilo del botón de toggling */
+.navbar-toggler {
+    border: none; 
+    background-color: transparent; 
+    padding: 0.5rem; /* Ajustar padding */
+}
+
+/* Estilo del icono dentro del botón */
+.navbar-toggler-icon {
+   color: #fff;
+}
+
+/* Estilo general del offcanvas */
+.offcanvas {
+    background-color: #0a4460 !important; 
+    color: white; /* Texto blanco */
+    width: 350px !important; 
+}
+
+/* Estilo de las opciones dentro del offcanvas */
+.offcanvas .navbar-nav .nav-link {
+    color: white; 
+    padding: 10px 15px; 
+    font-size: 18px; 
+}
+
+/* Cambiar color de los enlaces al pasar el ratón */
+.offcanvas .navbar-nav .nav-link:hover {
+    background-color: #e98307; 
+    color: white;
+    border-radius: 15px; 
+}
+
+/* Estilo para el título del offcanvas */
+.offcanvas-header h5 {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+    color: #f8f9fa; 
+}
+
+/* Estilo del botón de cierre dentro del offcanvas */
+.offcanvas .btn-close-white {
+    color: #f8f9fa; 
+    font-size: 1.5rem; 
+}
+/* Personalización adicional del contenedor */
+.container-fluid {
+    padding-left: 15px;  
+    padding-right: 15px; 
+}
+
+/* Estilos para el contenedor del formulario y el botón */
+.container-fluid .d-flex {
+    display: flex;
+    justify-content: flex-end;  
+    gap: 10px;  
+}   
+ /* Estilos para pantallas pequeñas (menos de 576px) */
+ @media (max-width: 576px) { 
+    .navbar .form-control {
+      width: 100%; 
+    }
+  }
+  
+  /* Estilos para pantallas medianas (entre 576px y 992px) */
+  @media (min-width: 576px) and (max-width: 992px) { 
+    .navbar .form-control {
+      width: 100%; 
+    }
+  }

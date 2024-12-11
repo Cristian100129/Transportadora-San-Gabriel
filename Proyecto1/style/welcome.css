@@ -1,0 +1,64 @@
+/* Estilos generales del formulario */
+#presentacionForm {
+    background-color: #f8f9fa; 
+    border-radius: 10px; 
+    padding: 30px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6); 
+  }
+  
+  /* Estilos para los fieldsets */
+  fieldset {
+    border: 1px solid #ced4da; 
+    padding: 20px; 
+    margin-bottom: 20px; /
+  }
+  
+  legend {
+    font-weight: bold; 
+    color: #343a40; 
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    color: #343a40;
+  }
+  
+  /* Estilos para los campos de entrada */
+  input[type="text"],
+  input[type="file"],
+  input[type="number"],
+  input[type="time"],
+  select,
+  textarea {
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    padding: 10px;
+  }
+  
+  /* Estilos para el botón de enviar */
+  button[type="submit"] {
+    
+    background-color: #007bff;
+    border-color: #007bff; 
+    font-weight: bold; 
+  }
+  
+  
+  #contenedor-video {
+    margin-bottom: 20px; 
+  }
+  
+  /* Estilos para el contenedor de la imagen */
+  #contenedor-imagen {
+    margin-bottom: 20px; 
+  }
+  
+  /* Estilos para el contenedor del texto del banner */
+  #contenedor-texto-banner {
+    margin-bottom: 20px; 
+  }
+  
+  /* Estilos para el contenedor de la duración */
+  #contenedor-duracion {
+    margin-bottom: 20px; 
+  }

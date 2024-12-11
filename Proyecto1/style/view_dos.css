@@ -1,0 +1,44 @@
+/* Reseteo los estilos de los navegadores establecidos que tienen por medio de  márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.titulo {
+    background-color: #28a745; /* Color verde del título */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .video-container {
+    position: relative; /* Para posicionar el botón de play */
+  }
+
+  .video-container video {
+    width: 100%;
+    height: 400px; 
+  }
+
+  /* Estilos adicionales para el botón de play  */
+  .video-container .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  

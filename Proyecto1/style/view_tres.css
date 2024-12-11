@@ -1,0 +1,54 @@
+/* Reseteo los estilos de los navegadores establecidos que tienen por medio de  márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.titulo {
+    background-color: #28a745; /* Color verde del título */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  .container{
+    width: 50%;
+  }
+
+  .imagen-container img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+  }
+  /* Estilos para pantallas pequeñas (menos de 576px) */
+  @media (max-width: 576px) { 
+    .container {
+      width: 100%;
+    }
+    .imagen-container img{
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 900px) { 
+    .container {
+      width: 100%;
+    }
+    .imagen-container img{
+      width: 100%;
+    }
+  }
+  @media (min-width: 993px) and (max-width: 1100px) { 
+    .container {
+      width: 100%;
+    }
+    .imagen-container img{
+      width: 100%;
+    }
+  }

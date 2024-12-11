@@ -1,0 +1,85 @@
+/* Reseteo los estilos de los navegadores establecidos que tienen por medio de  márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+}
+ 
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+  .container {
+    /* Estilos generales del contenedor, si son necesarios */
+    margin-top: 20px; 
+  }
+  
+  .imagen {
+    /* Estilos para el contenedor de la imagen */
+    margin-bottom: 20px; 
+  }
+  
+  .imagen img {
+    /* Estilos para la imagen */
+    width: 100%; 
+    height: auto; 
+    border: 1px solid #ddd; 
+  }
+  
+  /* .texto {
+    
+  } */
+  
+  .texto__titulo {
+    /* Estilos para el título del texto */
+    font-size: 18px; 
+    margin-bottom: 10px; 
+  }
+  
+  .texto__descripcion {
+    /* Estilos para la descripción del texto */
+    font-size: 14px; 
+    line-height: 1.5; 
+  }
+  
+  .contenedor-titulo-superior {
+    /* Estilos para el contenedor del título superior */
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  
+  .titulo__nombre {
+    /* Estilos para el título superior */
+    font-size: 36px; 
+    font-weight: bold; 
+  }
+  
+  .video {
+    /* Estilos para el contenedor del video */
+    position: relative; /* Para posicionar el botón de play (opcional) */
+  }
+  
+  .video iframe {
+    /* Estilos para el iframe del video */
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estilos adicionales para el botón de play (opcional) */
+  .video .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
